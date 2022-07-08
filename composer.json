@@ -1,0 +1,16 @@
+{
+  "name": "predic/predic-cpt-metadata",
+  "description": "Predic CPT metadata",
+  "type": "wordpress-plugin",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [],
+  "require": {
+    "php" : ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PredicCptMetadata\\" : "src/"
+    }
+  }
+}
